@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Home Page</title>
+<style>
+        /* CSS styles to make your page look nice */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 0;
+            padding: 10px;
+            background-color: #444;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+	            
+        footer{
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .btn{
+            	margin-right:40px; 
+		color:#191970;
+		font-family:times new roman;
+		font-size:18px;
+		cursor:pointer;
+	} 
+  </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+	<img src="https://vishnu.edu.in/images/logobig.jpg" height="90px" width="150px" alt="VISHNU" align="left"></img>
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO4cxJuKhYmGzGkyQz7tj5JahcJXAuKGmMbw&s" height="90px" width="180px" alt="VISHNU" align="right"></img>	
+
+	<h1>  Welcome to SBSP Online Feedback Pulse</h1>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="mainhome.html">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="contact.html">CONTACT</a>
+        <a href="index.php">FACULTY</a>
+
+    </nav>
+
+    <!-- Main Content Section -->
+    <section>
+        <h1 align="center">FEEDBACK</h1>
+        <p style="color:#25537B;text-align:center;font-family:times new roman;font-size:25px;"> “There is no failure. Only feedback.”</p>
+        <img src="https://cdn.prod.website-files.com/64022de562115a8189fe542a/663b9b70ff53a383fc50eea2_Feedback-Culture-Exploring-Its-Purpose-Benefits-And-How-To-Build-One.jpg" height="250px" width="500px" alt="FEEDBACK MATTERS"></img>
+<br><BR><BR>
+<input type="button" class="btn" onclick="window.location='facultyfeedback/submit_feedback.php'" value="FACULTY FEEDBACK"/>
+<input type="button" class="btn" onclick="window.location='feedback.php'" value="STUDENT FEEDBACK"/>
+<input type="button" class="btn" onclick="window.location='compindex.php'" value="COMPLAINT"/>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+       <b>THANK YOU</b>
+    </footer>
+</body>
+</html>
